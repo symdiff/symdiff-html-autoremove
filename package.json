@@ -1,0 +1,28 @@
+{
+  "name": "symdiff-html-autoremove",
+  "version": "0.0.2",
+  "description": "Removes classes from a HTML file.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/symdiff/symdiff-html-autoremove.git"
+  },
+  "bugs": {
+    "url": "https://github.com/symdiff/symdiff-html-autoremove/issues"
+  },
+  "homepage": "https://symdiff.github.io",
+  "scripts": {
+    "test": "mocha -r test/chai.js test/*.test.js"
+  },
+  "author": "Nikolaus Piccolotto <hello@npiccolotto.com>",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "htmlparser2": "3.8.2"
+  },
+  "devDependencies": {
+    "chai": "2.3.0",
+    "mocha": "2.2.4",
+    "coveralls": "2.11.2",
+    "istanbul": "0.3.13"
+  }
+}
